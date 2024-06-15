@@ -39,3 +39,4 @@ The app offers the following features:
 ![](https://hamsterbot.click/wp-content/uploads/2024/06/Screenshot_20240615-183737_System-UI-512x1024.png)
 
 Start increasing your Hamster Kombat coins effortlessly with our SMART bot today!
+Source code will published soon as soon the coin listed on exchanges.
