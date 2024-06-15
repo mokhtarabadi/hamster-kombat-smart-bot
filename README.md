@@ -4,7 +4,7 @@ Increase your Hamster Kombat coins effortlessly by using our SMART bot. Here’s
 
 ## Step 1: Download the Bot
 
-First, download the bot for your Android device from [Releases](https://hamsterbot.click/hamster-kombat-bot-1-2-4-auto-play-on-autopilot/). If you’re unsure about your device’s CPU architecture, use the “ALL” variant.
+First, download the bot for your Android device from [Releases](https://github.com/mokhtarabadi/hamster-kombat-smart-bot/releases). If you’re unsure about your device’s CPU architecture, use the “ALL” variant.
 
 ## Step 2: Obtain a License
 
@@ -29,5 +29,13 @@ The app offers the following features:
 -   **Smart Upgrades**: Automatically buys the best cards for upgrading your mining.
 -   **Combo Claims**: Attempts to claim combos automatically if you have enough cards.
 -   **Custom Settings**: Set delays, minimum and maximum taps, and maximum balance usage for smart upgrades.
+
+## Screenshots
+
+![](https://hamsterbot.click/wp-content/uploads/2024/06/Screenshot_20240615-183707_Hamster-Kombat-Bot-1-512x1024.png)
+
+![](https://hamsterbot.click/wp-content/uploads/2024/06/Screenshot_20240615-183713_Hamster-Kombat-Bot-512x1024.png)
+
+![](https://hamsterbot.click/wp-content/uploads/2024/06/Screenshot_20240615-183737_System-UI-512x1024.png)
 
 Start increasing your Hamster Kombat coins effortlessly with our SMART bot today!
