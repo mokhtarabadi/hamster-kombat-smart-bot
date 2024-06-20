@@ -1,5 +1,8 @@
 # Boost Your Hamster Kombat Coins Automatically with Our SMART Bot
 
+
+[فارسی](README.FA.md) | [Русский](README.RU.md) | [Ўзбекча](README.UZ.md)
+
 Increase your Hamster Kombat coins effortlessly by using our SMART bot. Here’s how to get started:
 
 ## Step 1: Download the Bot
