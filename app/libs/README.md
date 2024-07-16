@@ -1,0 +1,1 @@
+# build https://github.com/mokhtarabadi/tdlib-android project and put `tdlib-debug.aar` here

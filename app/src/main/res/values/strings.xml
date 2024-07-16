@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">Hamster Kombat Bot</string>
+    <string name="hamster_activity">Hamster Activity</string>
+    <string name="hamster_bot_activity">Hamster Bot Activity</string>
+    <string name="settings_activity">Settings Activity</string>
+    <string name="telegram_activity">Telegram Activity</string>
+    <string name="web_view_activity">Web View Activity</string>
+    <string name="license_valid">License is valid</string>
+    <string name="activation_token">Activation Token</string>
+    <string name="validate">Validate</string>
+    <string name="error">Error %1$s</string>
+    <string name="exit">Exit</string>
+    <string name="enter_new_license">Enter new license code</string>
+    <string name="loading">Loading…</string>
+    <string name="license_validation_done">Your License is valid, you can use the bot now</string>
+    <string name="check_license">Check license</string>
+    <string name="need_license">You need to enter a license code for this account</string>
+    <string name="buy_license">Buy license</string>
+    <string name="enter_license_code">Enter license code</string>
+    <string name="activate">Activate</string>
+    <string name="license_description">Each license can only used for one account</string>
+    <string name="unknown_state">Unknown state</string>
+    <string name="welcome_description">Welcome to hamster bot</string>
+    <string name="settings">Settings</string>
+    <string name="update_app">Update App</string>
+    <string name="current_api_status">Current API status: </string>
+    <string name="get_list_boost_items">Get list boost items</string>
+    <string name="re_initial">Re-initial</string>
+    <string name="hamster_many_errors">If see many errors, please use clear button below to re-login to hamster bot</string>
+    <string name="clear">Clear</string>
+    <string name="get_config">Get config</string>
+    <string name="get_user_details">Get user details</string>
+    <string name="initial">Initial</string>
+    <string name="get_list_of_tasks">Get list of tasks</string>
+    <string name="synced">Synced</string>
+    <string name="get_upgrades_list">Get upgrades list</string>
+    <string name="hamster_ready">Hamster are ready to use</string>
+    <string name="refresh">Refresh</string>
+    <string name="current_event">Current event: </string>
+    <string name="upgrade_bought">Upgrade bought</string>
+    <string name="idle_state">Idle state</string>
+    <string name="tap_done">Tap done</string>
+    <string name="boost_bought">Boost bought</string>
+    <string name="waiting_for_seconds">Waiting for %1$d seconds.</string>
+    <string name="no_boosts">No boosts to buy, tap Refresh</string>
+    <string name="select_exchange">Select exchange done</string>
+    <string name="check_morse_code">Check morse code done</string>
+    <string name="no_tasks">No tasks to do</string>
+    <string name="check_task">Check task done</string>
+    <string name="upgrades_empty">Upgrades empty, tap Refresh</string>
+    <string name="balance_not_enough">Balance not enough, tap Refresh</string>
+    <string name="combo_already_claimed">Combo already claimed, tap Refresh</string>
+    <string name="combo_cards_less">Combo cards is less than 3, tap Refresh</string>
+    <string name="combo_claimed">Wow, you claimed your daily combo</string>
+    <string name="auto_tap">Auto Tap</string>
+    <string name="auto_hamster_tasks"><![CDATA[Auto Boost & Daily Tasks & Morse Code]]></string>
+    <string name="smart_upgrade">Smart Upgrade</string>
+    <string name="claim_combo">Try Claim Combo</string>
+    <string name="service_started">Service started</string>
+    <string name="service_will_started">Background Service will started shortly…</string>
+    <string name="service_error">Service error: %1$s</string>
+    <string name="start_background_service">Start background service</string>
+    <string name="stop_background_service">Stop background service</string>
+    <string name="unknown_service_state">Unknown service state</string>
+    <string name="available_taps">Available taps: %1$s</string>
+    <string name="balance_coins">Balance coins: %1$s</string>
+    <string name="earn_per_hour">Earn per hour: %1$s</string>
+    <string name="earn_per_tap">Earn per tap: %1$s</string>
+    <string name="level">Level: %1$s</string>
+    <string name="max_taps">Max taps: %1$s</string>
+    <string name="button_url_find">Button url find, please wait…</string>
+    <string name="failed_to_parse_buttons">Failed to parse buttons, maybe need to update app?</string>
+    <string name="find_hamster_bot">Trying to find hamster bot, please wait…</string>
+    <string name="hamster_bot_searched">Hamster bot searched, sending start command…</string>
+    <string name="hamster_bot_wait_for_response">Start command sent, waiting for response…\n
+        Timeout: 10 seconds</string>
+    <string name="start_message_responded">Start message responded, waiting for play button…</string>
+    <string name="hamster_completed">Completed, please wait…</string>
+    <string name="telegram_not_ready">Telegram client not ready</string>
+    <string name="telegram_is_ready">Telegram is ready to use</string>
+    <string name="hamster_telegram_bot_is_ready">Hamster telegram bot is ready to use</string>
+    <string name="failed_get_url">Failed to get url</string>
+    <string name="login_to_hamster">Try to login to hamster please wait</string>
+    <string name="failed_to_authenticate_in_hamster_api">Failed to authenticate in hamster API</string>
+    <string name="hamster_kombat_bot">Hamster Kombat Bot</string>
+    <string name="this_app_can_support_up_to_3_accounts">This app can support up to 3 accounts</string>
+    <string name="select_your_account_to_continue">Select your account to continue</string>
+    <string name="account">Account %1$s</string>
+    <string name="terms_of_service">Terms of service</string>
+    <string name="terms_of_service_text">By proceeding, you acknowledge and accept our terms of service:\n
+        All API calls (including those to Telegram and the Hamster Bot)
+        are executed locally on your device.\n
+        We do not gather any personal data.\n
+        This tool is intended for automated purposes only;\n
+        refrain from deploying it for unlawful activities.\n
+        We disclaim responsibility for any misuse of this tool.\n
+        We disclaim responsibility for any adverse outcomes resulting from the use of this tool.\n
+        We disclaim responsibility for any account suspensions.</string>
+    <string name="continue_">Continue</string>
+    <string name="min_delay_seconds">Min Delay Seconds</string>
+    <string name="max_delay_seconds">Max Delay Seconds</string>
+    <string name="max_percentage_for_smart_buy">Max Percentage For Smart Buy</string>
+    <string name="auto_tap_min">Auto Tap Min</string>
+    <string name="auto_tap_max">Auto Tap Max</string>
+    <string name="max_percentage_for_auto_boost">Max Percentage For Auto Boost</string>
+    <string name="delay_between_background_rounds_minutes">Delay between background rounds (Minutes)</string>
+    <string name="change_phone_number">Change phone number</string>
+    <string name="enter_code">Enter code</string>
+    <string name="login">Login</string>
+    <string name="a_code_has_been_sent_to">A code has been sent to %1$s</string>
+    <string name="enter_the_email_address">Enter the email address</string>
+    <string name="enter_email_code">Enter email code</string>
+    <string name="submit">Submit</string>
+    <string name="email_code_description">A code has been send to your email address from Telegram</string>
+    <string name="enter_password">Enter password</string>
+    <string name="password_description">Enter your Telegram account password</string>
+    <string name="enter_phone_description">We use Telegram API inside the app and all communication done in your phone.</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="phone_number_description">Enter your Telegram number in international format (+12345678901)</string>
+    <string name="telegram_error">Error occurred: code %1$s\nmessage: %2$s</string>
+    <string name="retry">Retry</string>
+    <string name="unknown">Unknown</string>
+    <string name="failed_to_get_phone_number">Failed to get phone number</string>
+    <string name="closing">Closing…</string>
+    <string name="closed">Closed</string>
+    <string name="initializing_telegram">Initializing Telegram</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="register">Register</string>
+    <string name="verify_telegram_link">Please verify your device by opening following link</string>
+    <string name="verify">Verify</string>
+    <string name="webview_failed">Failed: %1$s</string>
+    <string name="webview_failed_unknown_response">Unknown response</string>
+    <string name="no_combo_found">No combo found</string>
+    <string name="error_getting_user_details">Error getting user details</string>
+    <string name="need_re_login_description">Please use clear button to re-login</string>
+    <string name="error_getting_config">Error getting config</string>
+    <string name="error_syncing">Error syncing</string>
+    <string name="error_getting_upgrades_for_buy">Error getting upgrades for buy</string>
+    <string name="error_getting_boosts_for_buy">Error getting boosts for buy</string>
+    <string name="error_getting_tasks">Error getting tasks</string>
+    <string name="error_tapping">Error tapping</string>
+    <string name="error_buying_upgrade">Error buying upgrade</string>
+    <string name="error_buying_boost">Error buying boost</string>
+    <string name="error_claiming_daily_combo">Error claiming daily combo</string>
+    <string name="no_exchange_found">No exchange found</string>
+    <string name="error_selecting_exchange">Error selecting exchange</string>
+    <string name="error_checking_morse_code">Error checking morse code</string>
+    <string name="no_daily_task_found">No daily task found</string>
+    <string name="error_checking_daily_task">Error checking daily task</string>
+    <string name="error_checking_task">Error checking task</string>
+    <string name="background_service_error">Please tap here to open app and then restart background service.\n
+        Error detected: %1$s
+    </string>
+    <string name="hamster_kombat_service">Hamster Kombat Service</string>
+    <string name="running">Running…</string>
+    <string name="wait_for_minutes_next_round">Wait for %1$d minutes…\n
+        Next round: %2$s</string>
+    <string name="combo_already_claimed_service">Combo already claimed</string>
+    <string name="combo_upgrades_empty">Combo upgrades empty</string>
+    <string name="idle">Idle</string>
+    <string name="upgrades_empty_service">Upgrades empty</string>
+    <string name="starting_for_account">Starting for account %1$d</string>
+    <string name="service_notification_text">Available taps: %1$d\n
+        Max taps: %2$d\n
+        Balance coins: %3$d\n
+        Earn per hour: %4$d\n
+        Earn per tap: %5$d\n
+        Level: %6$d\n
+        State: %7$s\n
+        Event: %8$s
+    </string>
+    <string name="foreground_service_channel">Foreground Service Channel</string>
+    <string name="foreground_service_description">Used to manage the app\'s foreground service.</string>
+    <string name="no_token_skipping">No token, skipping</string>
+    <string name="no_license_token_skipping">No license token, skipping</string>
+    <string name="error_validating_license">Error validating license: %1$s</string>
+    <string name="notification_permission_needed">Need to grant permission to post notifications</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="cooldown_wait">Wait for %1$d minutes for cooldown</string>
+    <string name="cooldown_too_much_service">%1$d minutes cooldown too much</string>
+    <string name="cooldown_too_much">%1$d minutes cooldown too much, tap Refresh</string>
+    <string name="max_cooldown_wait_minutes">Max wait time for cooldown (minutes)</string>
+</resources>

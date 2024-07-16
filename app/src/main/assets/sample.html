@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<h1 style="text-align: center">Please wait and don't press back button</h1>
+<br>
+<br>
+<div id="output">
+    <p style="font-weight: bold">Output: </p>
+</div>
+
+<script type="text/javascript" src="iife.min.js"></script>
+<script type="text/javascript" src="telegram-web-app.js"></script>
+
+<script type="text/javascript">
+    let isLoading = false;
+
+    function updateOutput(message) {
+        // append
+        document.getElementById('output').innerHTML += '<p>' + message + '</p>' + '\n';
+    }
+
+    async function getAuthPayLoad(url) {
+        if (isLoading) return;
+
+        isLoading = true;
+        try {
+            // Initialize the agent at application startup.
+            const fpPromise = FingerprintJS.load();
+
+            // Await the promise and get the result.
+            const fp = await fpPromise;
+            const result = await fp.get();
+
+            const fingerprintData = {
+                version: result.version,
+                visitorId: result.visitorId,
+                components: result.components
+            };
+
+            // Collect the initialization data from Telegram WebApp
+            const initDataRaw = window.Telegram.WebApp.initData;
+
+            // Prepare data for the POST request
+            const data = JSON.stringify({
+                initDataRaw: initDataRaw,
+                fingerprint: fingerprintData
+            });
+
+            // Send the fingerprint data
+            updateOutput("Fingerprint done. Sending data to Hamster...");
+            await postData(url + '/success', JSON. stringify({
+                "payload": data
+            }));
+
+        } catch (error) {
+            console.error("Error getting fingerprint:", error);
+            updateOutput("Error getting fingerprint: " + error);
+
+            // Send the error data
+            await postData(url + '/error', JSON.stringify({ error: error.message || error.toString() }));
+        } finally {
+            isLoading = false;
+        }
+    }
+
+    async function postData(endpoint, data) {
+        try {
+            const response = await fetch(endpoint, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: data
+            });
+            console.log("Response:", response);
+        } catch (postError) {
+            console.error("Error posting data:", postError);
+            updateOutput("Error posting data: " + postError);
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ربات همستر کمبت</string>
+    <string name="hamster_activity">فعالیت همستر</string>
+    <string name="hamster_bot_activity">فعالیت ربات همستر</string>
+    <string name="settings_activity">فعالیت تنظیمات</string>
+    <string name="telegram_activity">فعالیت تلگرام</string>
+    <string name="web_view_activity">فعالیت مرور وب</string>
+    <string name="license_valid">مجوز معتبر است</string>
+    <string name="activation_token">توکن فعال‌سازی</string>
+    <string name="validate">اعتبارسنجی</string>
+    <string name="error">خطا %1$s</string>
+    <string name="exit">خروج</string>
+    <string name="enter_new_license">کد مجوز جدید را وارد کنید</string>
+    <string name="loading">در حال بارگذاری…</string>
+    <string name="license_validation_done">مجوز شما معتبر است، اکنون می‌توانید از ربات استفاده کنید</string>
+    <string name="check_license">بررسی مجوز</string>
+    <string name="need_license">برای این حساب باید کد مجوز وارد کنید</string>
+    <string name="buy_license">خرید مجوز</string>
+    <string name="enter_license_code">کد مجوز را وارد کنید</string>
+    <string name="activate">فعال‌سازی</string>
+    <string name="license_description">هر مجوز فقط برای یک حساب قابل استفاده است</string>
+    <string name="unknown_state">وضعیت نامعلوم</string>
+    <string name="welcome_description">به ربات همستر خوش آمدید</string>
+    <string name="settings">تنظیمات</string>
+    <string name="update_app">به‌روزرسانی برنامه</string>
+    <string name="current_api_status">وضعیت فعلی API: </string>
+    <string name="get_list_boost_items">دریافت لیست آیتم‌های بوستی</string>
+    <string name="re_initial">راه‌اندازی مجدد</string>
+    <string name="hamster_many_errors">اگر خطاهای زیادی مشاهده می‌کنید، لطفاً از دکمه پاک‌سازی زیر استفاده کنید تا دوباره به ربات همستر وارد شوید</string>
+    <string name="clear">پاک‌سازی</string>
+    <string name="get_config">دریافت پیکربندی</string>
+    <string name="get_user_details">دریافت جزئیات کاربر</string>
+    <string name="initial">راه‌اندازی</string>
+    <string name="get_list_of_tasks">دریافت لیست وظایف</string>
+    <string name="synced">همگام‌سازی شد</string>
+    <string name="get_upgrades_list">دریافت لیست ارتقاءها</string>
+    <string name="hamster_ready">همستر آماده استفاده است</string>
+    <string name="refresh">به‌روزرسانی</string>
+    <string name="current_event">رویداد فعلی: </string>
+    <string name="upgrade_bought">ارتقاء خریداری شد</string>
+    <string name="idle_state">وضعیت استراحت</string>
+    <string name="tap_done">ضربه زدن انجام شد</string>
+    <string name="boost_bought">بوست خریداری شد</string>
+    <string name="waiting_for_seconds">منتظر %1$d ثانیه.</string>
+    <string name="no_boosts">هیچ بوست برای خرید نیست، بروزرسانی را بزنید</string>
+    <string name="select_exchange">انتخاب مبادله انجام شد</string>
+    <string name="check_morse_code">بررسی کد مورس انجام شد</string>
+    <string name="no_tasks">هیچ وظیفه‌ای برای انجام وجود ندارد</string>
+    <string name="check_task">بررسی وظیفه انجام شد</string>
+    <string name="upgrades_empty">ارتقاءها خالی است، بروزرسانی را بزنید</string>
+    <string name="balance_not_enough">موجودی کافی نیست، بروزرسانی را بزنید</string>
+    <string name="combo_already_claimed">کمبو قبلاً دریافت شده، بروزرسانی را بزنید</string>
+    <string name="combo_cards_less">تعداد کارت‌های کمبو کمتر از 3 است، بروزرسانی را بزنید</string>
+    <string name="combo_claimed">وای، کمبوی روزانه خود را دریافت کردید</string>
+    <string name="auto_tap">ضربه خودکار</string>
+    <string name="auto_hamster_tasks"><![CDATA[بوست خودکار & وظایف روزانه & کد مورس]]></string>
+    <string name="smart_upgrade">ارتقاء هوشمند</string>
+    <string name="claim_combo">دریافت کمبو را امتحان کنید</string>
+    <string name="service_started">سرویس شروع شد</string>
+    <string name="service_will_started">سرویس پس‌زمینه به زودی شروع خواهد شد…</string>
+    <string name="service_error">خطای سرویس: %1$s</string>
+    <string name="start_background_service">شروع سرویس پس‌زمینه</string>
+    <string name="stop_background_service">توقف سرویس پس‌زمینه</string>
+    <string name="unknown_service_state">وضعیت سرویس نامعلوم</string>
+    <string name="available_taps">ضربات موجود: %1$s</string>
+    <string name="balance_coins">موجودی سکه‌ها: %1$s</string>
+    <string name="earn_per_hour">درآمد در هر ساعت: %1$s</string>
+    <string name="earn_per_tap">درآمد در هر ضربه: %1$s</string>
+    <string name="level">سطح: %1$s</string>
+    <string name="max_taps">حداکثر ضربات: %1$s</string>
+    <string name="button_url_find">دکمه URL پیدا شد، لطفاً صبر کنید…</string>
+    <string name="failed_to_parse_buttons">عدم موفقیت در تجزیه دکمه‌ها، ممکن است نیاز به بروزرسانی برنامه باشد؟</string>
+    <string name="find_hamster_bot">در حال تلاش برای یافتن ربات همستر، لطفاً صبر کنید…</string>
+    <string name="hamster_bot_searched">ربات همستر جستجو شد، ارسال فرمان شروع…</string>
+    <string name="hamster_bot_wait_for_response">فرمان شروع ارسال شد، در انتظار پاسخ…\n
+        مهلت: 10 ثانیه</string>
+    <string name="start_message_responded">پیام شروع پاسخ داده شد، در انتظار دکمه بازی…</string>
+    <string name="hamster_completed">تکمیل شد، لطفاً صبر کنید…</string>
+    <string name="telegram_not_ready">کلاینت تلگرام آماده نیست</string>
+    <string name="telegram_is_ready">تلگرام آماده استفاده است</string>
+    <string name="hamster_telegram_bot_is_ready">ربات تلگرام همستر آماده استفاده است</string>
+    <string name="failed_get_url">عدم موفقیت در دریافت URL</string>
+    <string name="login_to_hamster">تلاش برای ورود به همستر، لطفاً صبر کنید</string>
+    <string name="failed_to_authenticate_in_hamster_api">عدم موفقیت در تأیید اعتبار API همستر</string>
+    <string name="hamster_kombat_bot">ربات همستر کمبت</string>
+    <string name="this_app_can_support_up_to_3_accounts">این برنامه می‌تواند تا 3 حساب کاربری را پشتیبانی کند</string>
+    <string name="select_your_account_to_continue">حساب کاربری خود را برای ادامه انتخاب کنید</string>
+    <string name="account">حساب %1$s</string>
+    <string name="terms_of_service">شرایط استفاده</string>
+    <string name="terms_of_service_text">با ادامه دادن، شما شرایط استفاده ما را تأیید و پذیرفته‌اید:\n
+        تمامی درخواست‌های API (از جمله درخواست‌های تلگرام و ربات همستر)
+        به صورت محلی بر روی دستگاه شما انجام می‌شود.\n
+        ما هیچ اطلاعات شخصی را جمع‌آوری نمی‌کنیم.\n
+        این ابزار فقط برای اهداف خودکار طراحی شده است؛\n
+        از استفاده از آن برای فعالیت‌های غیرقانونی خودداری کنید.\n
+        ما هیچ مسئولیتی در قبال سوءاستفاده از این ابزار نداریم.\n
+        ما هیچ مسئولیتی در قبال نتایج نامطلوب ناشی از استفاده از این ابزار نداریم.\n
+        ما هیچ مسئولیتی در قبال تعلیق حساب‌ها نداریم.</string>
+    <string name="continue_">ادامه</string>
+    <string name="min_delay_seconds">حداقل تأخیر بین درخواست‌ها (ثانیه)</string>
+    <string name="max_delay_seconds">حداکثر تأخیر بین درخواست‌ها (ثانیه)</string>
+    <string name="max_percentage_for_smart_buy">حداکثر درصد برای خرید هوشمند</string>
+    <string name="auto_tap_min">حداقل ضربه خودکار</string>
+    <string name="auto_tap_max">حداکثر ضربه خودکار</string>
+    <string name="max_percentage_for_auto_boost">حداکثر درصد موجودی برای بوست خودکار</string>
+    <string name="delay_between_background_rounds_minutes">تأخیر بین دورهای پس‌زمینه (دقیقه)</string>
+    <string name="change_phone_number">تغییر شماره تلفن</string>
+    <string name="enter_code">کد را وارد کنید</string>
+    <string name="login">ورود</string>
+    <string name="a_code_has_been_sent_to">کدی به %1$s ارسال شده است</string>
+    <string name="enter_the_email_address">آدرس ایمیل را وارد کنید</string>
+    <string name="enter_email_code">کد ایمیل را وارد کنید</string>
+    <string name="submit">ارسال</string>
+    <string name="email_code_description">کدی به آدرس ایمیل شما از تلگرام ارسال شده است</string>
+    <string name="enter_password">رمز عبور را وارد کنید</string>
+    <string name="password_description">رمز عبور حساب تلگرام خود را وارد کنید</string>
+    <string name="enter_phone_description">ما از API تلگرام در داخل برنامه استفاده می‌کنیم و تمامی ارتباطات در گوشی شما انجام می‌شود.</string>
+    <string name="enter_phone_number">شماره تلفن را وارد کنید</string>
+    <string name="phone_number_description">شماره تلگرام خود را به صورت بین‌المللی وارد کنید (+989123456789)</string>
+    <string name="telegram_error">خطا رخ داد: کد %1$s\nپیام: %2$s</string>
+    <string name="retry">تلاش مجدد</string>
+    <string name="unknown">نامعلوم</string>
+    <string name="failed_to_get_phone_number">عدم موفقیت در دریافت شماره تلفن</string>
+    <string name="closing">در حال بستن…</string>
+    <string name="closed">بسته شد</string>
+    <string name="initializing_telegram">در حال راه‌اندازی تلگرام</string>
+    <string name="first_name">نام</string>
+    <string name="last_name">نام خانوادگی</string>
+    <string name="register">ثبت‌نام</string>
+    <string name="verify_telegram_link">لطفاً دستگاه خود را با باز کردن لینک زیر تأیید کنید</string>
+    <string name="verify">تأیید</string>
+    <string name="webview_failed">شکست: %1$s</string>
+    <string name="webview_failed_unknown_response">پاسخ نامعلوم</string>
+    <string name="no_combo_found">هیچ کمبویی یافت نشد</string>
+    <string name="error_getting_user_details">خطا در دریافت جزئیات کاربر</string>
+    <string name="need_re_login_description">لطفاً از دکمه پاک‌سازی برای ورود مجدد استفاده کنید</string>
+    <string name="error_getting_config">خطا در دریافت پیکربندی</string>
+    <string name="error_syncing">خطا در همگام‌سازی</string>
+    <string name="error_getting_upgrades_for_buy">خطا در دریافت ارتقاءها برای خرید</string>
+    <string name="error_getting_boosts_for_buy">خطا در دریافت بوست‌ها برای خرید</string>
+    <string name="error_getting_tasks">خطا در دریافت وظایف</string>
+    <string name="error_tapping">خطا در ضربه زدن</string>
+    <string name="error_buying_upgrade">خطا در خرید ارتقاء</string>
+    <string name="error_buying_boost">خطا در خرید بوست</string>
+    <string name="error_claiming_daily_combo">خطا در دریافت کمبوی روزانه</string>
+    <string name="no_exchange_found">هیچ مبادله‌ای یافت نشد</string>
+    <string name="error_selecting_exchange">خطا در انتخاب مبادله</string>
+    <string name="error_checking_morse_code">خطا در بررسی کد مورس</string>
+    <string name="no_daily_task_found">هیچ وظیفه روزانه‌ای یافت نشد</string>
+    <string name="error_checking_daily_task">خطا در بررسی وظیفه روزانه</string>
+    <string name="error_checking_task">خطا در بررسی وظیفه</string>
+    <string name="background_service_error">لطفاً برای باز کردن برنامه و راه‌اندازی مجدد سرویس پس‌زمینه اینجا ضربه بزنید.\n
+        خطای شناسایی شده: %1$s
+    </string>
+    <string name="hamster_kombat_service">سرویس همستر کمبت</string>
+    <string name="running">در حال اجرا…</string>
+    <string name="wait_for_minutes_next_round">منتظر %1$d دقیقه…\n
+        دور بعدی: %2$s</string>
+    <string name="combo_already_claimed_service">کمبو قبلاً دریافت شده</string>
+    <string name="combo_upgrades_empty">کمبو ارتقاءها خالی است</string>
+    <string name="idle">استراحت</string>
+    <string name="upgrades_empty_service">ارتقاءها خالی است</string>
+    <string name="starting_for_account">شروع برای حساب %1$d</string>
+    <string name="service_notification_text">ضربات موجود: %1$d\n
+        حداکثر ضربات: %2$d\n
+        موجودی سکه‌ها: %3$d\n
+        درآمد در هر ساعت: %4$d\n
+        درآمد در هر ضربه: %5$d\n
+        سطح: %6$d\n
+        وضعیت: %7$s\n
+        رویداد: %8$s\n
+    </string>
+    <string name="foreground_service_channel">کانال سرویس پیش‌زمینه</string>
+    <string name="foreground_service_description">برای مدیریت سرویس پیش‌زمینه برنامه استفاده می‌شود.</string>
+    <string name="no_token_skipping">بدون توکن، عبور می‌کنیم</string>
+    <string name="no_license_token_skipping">بدون توکن مجوز، عبور می‌کنیم</string>
+    <string name="error_validating_license">خطا در اعتبارسنجی مجوز: %1$s</string>
+    <string name="notification_permission_needed">نیاز به اعطای مجوز برای ارسال اعلان‌ها</string>
+    <string name="unknown_error">خطای نامعلوم</string>
+    <string name="cooldown_wait">برای خنک شدن، %1$d دقیقه صبر کنید</string>
+    <string name="cooldown_too_much">%1$d دقیقه برای خنک شدن زیاد است، بروزرسانی را بزنید</string>
+    <string name="cooldown_too_much_service">%1$d دقیقه برای خنک شدن زیاد است</string>
+    <string name="max_cooldown_wait_minutes">حداکثر زمان منتظر برای خنک شدن (دقیقه)</string>
+</resources>

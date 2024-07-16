@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:extractNativeLibs="false"
+        android:usesCleartextTraffic="true"
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HamsterKombatBot"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.HamsterKombatBot">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.HamsterActivity"
+            android:exported="false"
+            android:label="@string/hamster_activity"
+            android:theme="@style/Theme.HamsterKombatBot" />
+
+        <activity
+            android:name=".activity.HamsterBotActivity"
+            android:exported="false"
+            android:label="@string/hamster_bot_activity"
+            android:theme="@style/Theme.HamsterKombatBot" />
+
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:exported="false"
+            android:label="@string/settings_activity"
+            android:theme="@style/Theme.HamsterKombatBot" />
+
+        <activity android:name=".activity.TelegramActivity"
+            android:exported="false"
+            android:label="@string/telegram_activity"
+            android:theme="@style/Theme.HamsterKombatBot" />
+
+        <activity
+            android:name=".activity.WebViewActivity"
+            android:exported="false"
+            android:label="@string/web_view_activity"
+            android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" />
+
+        <service
+            android:name=".service.MainForegroundService"
+            android:enabled="true"
+            android:foregroundServiceType="shortService"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
